@@ -1,0 +1,74 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu:wght@300&display=swap');
+
+    :root {
+      --border: 1px solid rgb(176, 176, 176);
+      --font: 'Ubuntu', sans-serif;
+
+    }
+
+
+    .container {
+      text-align: center;
+      width: 33rem;
+      height: 24rem;
+      background-color: white;
+      position: relative;
+      left: 30%;
+      top: 50px;
+      border: var(--border);
+      display: inline-block;
+    }
+
+
+    .saffron {
+      width: 33rem;
+      height: 33.3%;
+      position: absolute;
+
+      background-color: #FF671F;
+    }
+
+    .green {
+      width: 33rem;
+      height: 33.3%;
+      background-color: #046A38;
+      position: absolute;
+      top: 16rem;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      width: 8rem;
+      position: absolute;
+      left: 38%;
+      top: 8rem;
+      -webkit-user-drag: none;
+    }
+
+    .text {
+      /* display: inline-block; */
+      position: relative;
+      top: 80px;
+      text-align: center;
+      font-family: var(--font);
+
+      left: 25px;
+    }
+
+    footer {
+      font-family: var(--font);
+      position: relative;
+      top: 100px;
+      text-align: center;
+      left: 25px;
+    }
+
+    footer,
+    .text {
+      margin: 0;
+      padding: 0;
+    }
